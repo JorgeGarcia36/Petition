@@ -1,0 +1,19 @@
+<div class="form">
+    <h1 class="text heading">Login</h1>
+
+    {{#if error}}
+
+        <h1 class="error"> Wrong credentials</h1>
+
+    {{/if}}
+
+    <form class="form2" method="POST" >  <p> <p>
+    <input class="inputregister" type="text" autocomplete = "off" name="email" placeholder="email"> <p> <p>
+    <input class="inputregister" type="password" autocomplete = "off" name="password" placeholder="password"> <p>
+    <input class="inputregister" type="hidden" name="_csrf" value="{{csrfToken}}">
+    <button class="inputregister button"  type="submit" autocomplete = "off" name="button">Submit</button> <p>
+    <p class="text" id="centertext"><h2>Not registered? Sign up <a href="/register">here</h2></a></p>
+    </form>
+
+
+</div>

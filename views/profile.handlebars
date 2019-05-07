@@ -1,0 +1,18 @@
+<div class="form">
+<h1> Tell us more about you</h1>
+
+
+        {{#if error}}
+
+            <h2> Please, give us more details</h2>
+
+        {{/if}}
+<form class="registersubmit" method="POST" >
+    <input class="inputregister" type="text" name="age" placeholder="age"><p>
+    <input class="inputregister" type="text" name="city" placeholder="City"><p>
+    <input class="inputregister" type="text" name="url" placeholder="Url"><p>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><p>
+    <button class="inputregister button" for="switch" type="submit" name="button">Submit</button>
+</form>
+
+</div>

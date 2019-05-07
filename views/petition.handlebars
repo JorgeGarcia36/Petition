@@ -1,0 +1,27 @@
+<h1 class="error"> Don't buy pets from pet stores</h1>
+<img class="pets_imag" src="pets3.jpg">
+
+{{#if error}}
+
+    <h1 class="error"> Signature is required</h1>
+
+{{/if}}
+
+<form method="POST" class="form">
+        <h1> Sign below</h1>
+    <!-- <input class="inputregister" type="text" name="firstname" placeholder="First Name">
+    <br>
+    <input class="inputregister" type="text" name="lastname" placeholder="Last Name">
+    <br> -->
+    <input class="inputregister" name="signature" type="hidden">
+    <br>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <canvas id="canvas" width="300" height="100"></canvas>
+    <br>
+    <button class="inputregister" id="register">Register</button>
+
+</form>
+
+
+
+<script src="canvas.js"> </script>

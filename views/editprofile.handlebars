@@ -1,0 +1,20 @@
+<div class="form">
+    <h1 class="text heading">See your data </h1>
+
+    {{#if error}}
+    <h1>Error with your data</h1>
+    {{/if}}
+<form class="form" method="POST" >
+<h2>Name</h2><input class="inputregister" type="text" value="{{firstname}}" name="firstname" placeholder="First name">
+<h2>Last Name</h2><input class="inputregister" type="text" value="{{lastname}}" name="lastname" placeholder="Last name">
+<h2>E-mail</h2><input class="inputregister" type="text" value="{{email}}" name="email" placeholder="Email">
+<h2>Password</h2><input class="inputregister" type="password" name="password" placeholder="Password">
+
+<h2>Age</h2> <input class="inputregister" type="text" value="{{#if age}}{{age}}{{/if}}" name="age" placeholder="Age">
+<h2>City</h2> <input class="inputregister" type="text" value="{{#if city}}{{city}}{{/if}}" name="city" placeholder="City"> <br>
+<h2>Url</h2><input class="inputregister" type="url" value="{{#if url}}{{url}}{{/if}}" name="url" placeholder="Homepage"><br>
+<input class="input" type="hidden" name="_csrf" value="{{csrfToken}}">
+<button class="button inputregister" for="switch" type="submit" name="button">Submit</button>
+</form>
+
+</div>

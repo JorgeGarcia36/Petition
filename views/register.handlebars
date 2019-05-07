@@ -1,0 +1,28 @@
+{{#if error}}
+
+            <h1 class="error"> Wrong credentials</h1>
+
+        {{/if}}
+
+        {{#if deleteSignature}}
+
+            <h1 class="error"> Signature deleted</h1>
+
+        {{/if}}
+
+        <div class="form">
+            <h1>Don't buy pets from pet stores</h1>
+
+            <img class="pets_imag" src="pets3.jpg">
+<h1>Register to support our petition to encourage pet adoption</h1>
+<form class="form" method="POST">
+    <input class="inputregister" type="text" autocomplete = "off" name="firstname" placeholder="First name">  <p>
+    <input class="inputregister" type="text" autocomplete = "off" name="lastname" placeholder="Last name"> <p>
+    <input class="inputregister" type="text" autocomplete = "off" name="email" placeholder="Email"> <p>
+    <input class="inputregister" type="password" name="password" placeholder="Password"> <p>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}"><p>
+    <button class="inputregister button" for="switch" type="submit" name="button">Submit</button><p>
+    <p class="text" id="centertext"><h2>Already a member? <a href="/login">Log in</h2></a></p>
+</form>
+
+</div>

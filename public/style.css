@@ -1,0 +1,98 @@
+* {
+    background-color: #FF6F61;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: overline solid #FFFFFF;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: underline solid #FFFFFF;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#error {
+
+}
+
+#canvas {
+    background-color: white;
+}
+
+.error {
+    text-align: center;
+}
+.form {
+    margin:50px 0px;
+    padding:0px;
+    text-align:center;
+    align:center;
+}
+
+.inputregister {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.inputregister button:hover {
+	background-color:#eb675e;
+}
+.inputregister button:hover {
+	position:relative;
+	top:1px;
+}
+
+.pets_imag {
+    display:block;
+    margin:auto;
+    width: 240px;
+    height: 150px;
+}
+
+.signedlist {
+    margin:50px 0px;
+    padding:0px;
+    text-align:center;
+    align:center;
+}
+
+h3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: none;
+    text-align: left;
+    padding-left: 450px;
+}
