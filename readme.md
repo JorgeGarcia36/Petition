@@ -5,3 +5,5 @@ An online petition including signing up the petition, registration form, login, 
 Created with JavaScript, Node with Express, Postgres, Handlebars, Canvas element, HTML and CSS.
 
 https://petstion.herokuapp.com/
+
+![Petition demo](Petition-demo.gif)
